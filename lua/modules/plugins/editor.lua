@@ -1,5 +1,8 @@
 local editor = {}
 
+editor["pocco81/auto-save.nvim"] = {
+	layer = true,
+}
 editor["rainbowhxch/accelerated-jk.nvim"] = {
 	lazy = true,
 	event = "VeryLazy",
